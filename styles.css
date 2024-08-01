@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #AFCBFF;
+    font-family: 'Poppins', 'sans-serif';
+}
+
+.board {
+    display: grid;
+    grid-template-rows: 175px 175px 175px;
+    grid-template-columns: 175px 175px 175px;
+}
+
+.box {
+    background-color: #0E1C36;
+    border:5px solid #AFCBFF;
+    color: #d7f9ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    font-size: 45px;    
+}
+
+.box:active {
+    background-color: #081120;
+}
+
